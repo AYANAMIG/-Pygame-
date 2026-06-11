@@ -1,6 +1,6 @@
 import pygame
 import random
-
+from config import *
 
 class Monster:
 
@@ -39,7 +39,9 @@ class Monster:
             550
         )
 
-        self.speed = 2 + difficulty
+        self.speed = (
+            BASE_MONSTER_SPEED + difficulty * 0.5
+        )
 
     def update(self):
 

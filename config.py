@@ -3,7 +3,9 @@ SCREEN_HEIGHT = 720
 
 GAME_TITLE = "小王的英语单词机"
 
-FPS = 60
+FPS = 120
+
+BASE_MONSTER_SPEED = 0.05 #单词的速度
 
 WHITE = (255,255,255)
 BLACK = (0,0,0)
